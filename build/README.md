@@ -1,2 +1,5 @@
-# cidoc-crm.examples
-Example diagrams showing how the CIDOC CRM (http://www.cidoc-crm.org/) can be used to model information for Heritage Science. These examples are intended to include paths to actual data. The models were initially developed as part of the IPERION-CH (H2020) Research Project (http://www.iperionch.eu/) but are being further developed and re-used within the SSHOC (H2020) Research Project (https://sshopencloud.eu/)
+# simple-site
+
+The build process for a very simple set processes for creating a standard set of webpages based on a small set of simple json files. All of the other required files, javascript, css, images, etc should be placed in the appropriate folders under the **docs** folder.
+
+For more information about how this process work please see the details are supplied within the [simple-site](https://jpadfield.github.io/simple-site/) web pages

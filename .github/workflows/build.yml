@@ -7,7 +7,7 @@ name: Build GH Pages
 on:
   push:
     branches: ['master']
-    paths: ['build/*.json', 'build/build.php', 'build/extensions/*.php', 'build/*.txt']
+    paths: ['build/*.json', 'build/build.php', 'build/extensions/*.php', 'build/*.txt', 'models/*/*.csv']
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -19,7 +19,14 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - name: sshoc-ng.examples
+      uses: actions/checkout@v2
+    
+    - name: d3-process-map
+      uses: actions/checkout@v2
+      with:
+        repository: jpadfield/d3-process-map
+        path: d3        
 
     # Runs commands using the runners shell
     - name: Run the build php script

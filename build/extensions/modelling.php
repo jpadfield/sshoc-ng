@@ -878,7 +878,7 @@ function D3_read_data() {
     }
     unset($obj);
     foreach ($data as &$obj) {
-        D3_get_html_docs($obj);
+        //D3_get_html_docs($obj);
         $obj['docs'] = get_html_docs($obj);
     }
     unset($obj);
@@ -892,8 +892,7 @@ function D3_get_html_docs($obj) {
 
     $name = str_replace('_', '\_', $obj['name']);
     $type = $obj['type'];
-    print_r ($config);
-    exit;
+    //print_r ($config);
     if ($config['types'][$type]) {
         $type = $config['types'][$type]['long'];
     }

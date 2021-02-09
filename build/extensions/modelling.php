@@ -108,7 +108,7 @@ function extensionModelling ($d, $pd)
 		fwrite($myfile, $d3json);
 		fclose($myfile);
 				
-		$html = D3_displayList ($title, $dataset, $data);
+		$html = D3_displayList ($title, $dataset, $data, $pd["page"]);
 		$myfile = fopen($html_path."models/d3_${name}_list.html", "w");
 		fwrite($myfile, $html);
 		fclose($myfile);
@@ -679,7 +679,7 @@ function D3_processNode ($v, $dv, $prop=false)
 	return ($output);		
 	}
     
-function D3_displayList ($title, $dataset, $data)
+function D3_displayList ($title, $dataset, $data, $parent="models.html")
 	{
   global $default_scripts;
   
@@ -714,7 +714,7 @@ function D3_displayList ($title, $dataset, $data)
 				<a class="btn btn-default nav-button" id="nav-home" href="../">
                 Home
             </a>            
-            <a class="btn btn-default nav-button" style="left:80px;" id="nav-models" href="../models.html">
+            <a class="btn btn-default nav-button" style="left:80px;" id="nav-models" href="../$parent">
                 Models
             </a>
             <a class="btn btn-default nav-button"  style="left:160px;"  id="nav-graph" href="d3_${dataset}.html">

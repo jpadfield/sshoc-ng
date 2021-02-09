@@ -89,7 +89,7 @@ function extensionModelling ($d, $pd)
 		$dataset = $name;
 		$dataset_qs = "?dataset=$dataset";
 
-		D3_read_config(); //defines the content of the global variable $config
+		read_config(); //defines the content of the global variable $config
     $config['jsonUrl'] = "d3_${name}.json";
 
 		$title = ucfirst($name)." semantic model - CIDOC CRM";
@@ -99,7 +99,7 @@ function extensionModelling ($d, $pd)
 		fwrite($myfile, $html);
 		fclose($myfile);
 
-		D3_read_data(); //defines the content of the global variable $data
+		read_data(); //defines the content of the global variable $data
 		$d3json = json_encode(array(
 			'data'   => $data,
 			'errors' => $errors));
@@ -840,99 +840,4 @@ END;
 	return ($html);
 	}	
 	
-
-
-function D3_read_config() {
-    global $config, $dataset, $dataset_qs;
-
-    $config = json_decode(file_get_contents("data/$dataset/config.json" ), true);
-    $config['jsonUrl'] = "json.php$dataset_qs";
-}
-
-function D3_read_data() {
-    global $config, $data, $dataset, $errors;
-
-    if (!$config) D3_read_config();
-
-    $json   = json_decode(file_get_contents("data/$dataset/objects.json"), true);
-    //print_r ($json);
-    $data   = array();
-    $errors = array();
-
-    foreach ($json as $obj) {
-        $data[$obj['name']] = $obj;
-    }
-
-    foreach ($data as &$obj) {
-        $obj['dependedOnBy'] = array();
-    }
-    unset($obj);
-    foreach ($data as &$obj) {
-        foreach ($obj['depends'] as $name) {
-            if ($data[$name]) {
-                $data[$name]['dependedOnBy'][] = $obj['name'];
-            } else {
-                $errors[] = "Unrecognized dependency: '$obj[name]' depends on '$name'";
-            }
-        }
-    }
-    unset($obj);
-    foreach ($data as &$obj) {
-        //D3_get_html_docs($obj);
-        $obj['docs'] = get_html_docs($obj);
-    }
-    unset($obj);
-}
-
-function D3_get_html_docs($obj) {
-    global $config, $data, $dataset, $errors;
-
-    $name = str_replace('/', '_', $obj['name']);
-    $filename = "data/$dataset/$name.mkdn";
-
-    $name = str_replace('_', '\_', $obj['name']);
-    $type = $obj['type'];
-    //print_r ($config);
-    if ($config['types'][$type]) {
-        $type = $config['types'][$type]['long'];
-    }
-
-    $markdown = "## $name *$type*\n\n";
-
-    if (file_exists($filename)) {
-        $markdown .= "### Documentation\n\n";
-        $markdown .= file_get_contents($filename);
-    } else {
-        $markdown .= "<div class=\"alert alert-warning\">No documentation for this object</div>";
-    }
-
-    if ($obj) {
-        $markdown .= "\n\n";
-        $markdown .= get_depends_markdown('Depends on',     $obj['depends']);
-        $markdown .= get_depends_markdown('Depended on by', $obj['dependedOnBy']);
-    }
-
-    // Use {{object_id}} to link to an object
-    $arr      = explode('{{', $markdown);
-    $markdown = $arr[0];
-    for ($i = 1; $i < count($arr); $i++) {
-        $pieces    = explode('}}', $arr[$i], 2);
-        $name      = $pieces[0];
-        $id_string = get_id_string($name);
-        $name_esc  = str_replace('_', '\_', $name);
-        $class     = 'select-object';
-        if (!isset($data[$name])) {
-            $class .= ' missing';
-            $errors[] = "Object '$obj[name]' links to unrecognized object '$name'";
-        }
-        $markdown .= "<a href=\"#$id_string\" class=\"$class\" data-name=\"$name\">$name_esc</a>";
-        $markdown .= $pieces[1];
-    }
-
-    //$html = Markdown::defaultTransform($markdown);
-    //// IE can't handle <pre><code> (it eats all the line breaks)
-    //$html = str_replace('<pre><code>'  , '<pre>' , $html);
-    //$html = str_replace('</code></pre>', '</pre>', $html);
-    //return $html;
-}
 ?>

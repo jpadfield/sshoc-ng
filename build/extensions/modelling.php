@@ -274,10 +274,11 @@ function modelLinks ($mods)
 		
 	foreach ($mods as $nm)// => $a)
 		{
-		$count = $raw[$nm]["count"];
-		$tag = $raw[$nm]["comment"];
+		if (isset($raw[$nm])) {
+			$count = $raw[$nm]["count"];
+			$tag = $raw[$nm]["comment"];
 			
-		echo <<<END
+			echo <<<END
       <tr>
 				<td><p style="margin-bottom: 0px; font-size:1.25rem; font-weight:500;">$tag ($count - triples)</p></td>
 				<td style="text-align:right;white-space: nowrap;">
@@ -288,6 +289,16 @@ function modelLinks ($mods)
         </td>
       </tr>
 END;
+			}
+		else
+			{
+			echo <<<END
+      <tr>
+				<td><p style="margin-bottom: 0px; font-size:1.25rem; font-weight:500;">Missing data for $nm</p></td>
+				<td style="text-align:right;white-space: nowrap;"></td>
+      </tr>
+END;
+			}
 		}
 
   echo "</tbody></table><br></div>";

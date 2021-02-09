@@ -97,7 +97,8 @@ function extensionModelling ($d, $pd)
 		$myfile = fopen($html_path."models/d3_${name}.html", "w");
 		fwrite($myfile, $html);
 		fclose($myfile);
-				
+			print_r ($data);
+	  exit;
 		read_data(); //defines the content of the global variable $data
 		$d3json = json_encode(array(
 			'data'   => $data,

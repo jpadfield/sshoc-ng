@@ -48,6 +48,11 @@ function extensionModelling ($d, $pd)
 	$codeHTML = "";
 	$codecaption = "The complete modelling files used to define the models created in this example.";
 
+  $loc = "data";
+		
+  if (!is_dir($loc))
+   {mkdir($loc);}
+	
   foreach ($raw as $name => $selected)
 		{		
 		$pd["fluid"] = true;

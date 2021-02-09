@@ -99,6 +99,7 @@ function extensionModelling ($d, $pd)
 		fwrite($myfile, $html);
 		fclose($myfile);
 
+		trigger_error("Cannot divide by zero", E_USER_ERROR);
 		read_data(); //defines the content of the global variable $data
 		$d3json = json_encode(array(
 			'data'   => $data,

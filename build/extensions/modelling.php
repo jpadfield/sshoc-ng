@@ -2,6 +2,8 @@
 
 // Last Updated 
 
+echo "Running modelling\n";
+
 $extensionList["modelling"] = "extensionModelling";
 $raw = array();
 $config;

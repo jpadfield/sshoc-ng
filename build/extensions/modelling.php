@@ -1,21 +1,25 @@
 <?php
-//http://localhost/mod/
-//http://localhost/mb/build.php
+
 $extensionList["modelling"] = "extensionModelling";
-$raw = array(); //required global variable
+$raw = array();
 $config;
 $dataset;
 $dataset_qs;
 $data;
+$html_path;
 
 $old_files = glob($html_path."/models/*.html");
+foreach ($old_files as $ofile)
+	{unlink ($ofile);}
+	
+$old_files = glob($html_path."/models/*.json");
 foreach ($old_files as $ofile)
 	{unlink ($ofile);}
 
 if (is_file('../d3/common.php'))
   {require_once '../d3/common.php';}
 else
-  {require_once '../../../d3-process-map/common.php';}
+  {require_once '../../d3-process-map/common.php';}
 
 function extensionModelling ($d, $pd)
   {
@@ -23,7 +27,7 @@ function extensionModelling ($d, $pd)
   
   $files = array();
   foreach ($d["file"] as $t)
-    {$files = array_merge($files, glob("../models/*/${t}-triples.csv"));}
+    {$files = array_merge($files, glob("models/*/${t}-triples.csv"));}
 
   $input = array();
 
@@ -64,7 +68,7 @@ function extensionModelling ($d, $pd)
 			{mkdir($loc."/${name}");}
 				
 		if (!is_file($loc."/${name}/config.json")) {
-			copy($loc."/config.json", $loc."/${name}/config.json");
+			copy("d3-config.json", $loc."/${name}/config.json");
 			}
 			
 		$myfile = fopen($loc."/${name}/objects.json", "w");
@@ -81,6 +85,7 @@ function extensionModelling ($d, $pd)
 
 		read_config(); //defines the content of the global variable $config
     $config['jsonUrl'] = "d3_${name}.json";
+
 		$json = json_encode($config);
 		$html = D3_displayModel ($title, $dataset, $json, $pd["page"]);
 		$myfile = fopen($html_path."models/d3_${name}.html", "w");
@@ -100,7 +105,10 @@ function extensionModelling ($d, $pd)
 		$myfile = fopen($html_path."models/d3_${name}_list.html", "w");
 		fwrite($myfile, $html);
 		fclose($myfile);
+		
+		rmTempFiles($loc."/${name}");
 		}	
+	
 	
 	//foreach ($groups as $name => $d)
 	//	{$pd = $gpd;		
@@ -172,6 +180,18 @@ END;
   return (array("d" => $d, "pd" => $pd));
   }
 
+function rmTempFiles ($path)
+		{
+		if (is_file($path."/config.json"))
+			{unlink ($path."/config.json");}
+			
+		if (is_file($path."/objects.json"))
+			{unlink ($path."/objects.json");}
+			
+		if (is_dir($path))
+			{rmdir($path);}			
+		}
+		
 function getRaw($data)
 	{	
 	$model = array();//"all", "The full presentation of all of the data presented");

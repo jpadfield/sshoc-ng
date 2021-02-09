@@ -89,7 +89,7 @@ function extensionModelling ($d, $pd)
 		$dataset = $name;
 		$dataset_qs = "?dataset=$dataset";
 
-		read_config(); //defines the content of the global variable $config
+		D3_read_config(); //defines the content of the global variable $config
     $config['jsonUrl'] = "d3_${name}.json";
 
 		$title = ucfirst($name)." semantic model - CIDOC CRM";
@@ -99,8 +99,7 @@ function extensionModelling ($d, $pd)
 		fwrite($myfile, $html);
 		fclose($myfile);
 
-		trigger_error(print_r($data, true), E_USER_ERROR);
-		read_data(); //defines the content of the global variable $data
+		D3_read_data(); //defines the content of the global variable $data
 		$d3json = json_encode(array(
 			'data'   => $data,
 			'errors' => $errors));
@@ -840,4 +839,47 @@ END;
 	 
 	return ($html);
 	}	
+	
+
+
+function D3_read_config() {
+    global $config, $dataset, $dataset_qs;
+
+    $config = json_decode(file_get_contents("data/$dataset/config.json" ), true);
+    $config['jsonUrl'] = "json.php$dataset_qs";
+}
+
+function D3_read_data() {
+    global $config, $data, $dataset, $errors;
+
+    if (!$config) read_config();
+
+    $json   = json_decode(file_get_contents("data/$dataset/objects.json"), true);
+    print_r ($json);
+    $data   = array();
+    $errors = array();
+
+    foreach ($json as $obj) {
+        $data[$obj['name']] = $obj;
+    }
+
+    foreach ($data as &$obj) {
+        $obj['dependedOnBy'] = array();
+    }
+    unset($obj);
+    foreach ($data as &$obj) {
+        foreach ($obj['depends'] as $name) {
+            if ($data[$name]) {
+                $data[$name]['dependedOnBy'][] = $obj['name'];
+            } else {
+                $errors[] = "Unrecognized dependency: '$obj[name]' depends on '$name'";
+            }
+        }
+    }
+    unset($obj);
+    foreach ($data as &$obj) {
+        $obj['docs'] = get_html_docs($obj);
+    }
+    unset($obj);
+}
 ?>

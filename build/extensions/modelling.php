@@ -66,6 +66,9 @@ function extensionModelling ($d, $pd)
 		
 		$D3_data = D3_formatData($selected);
 		
+		//$loc = $html_path."data";
+		$loc = "data";
+		
 		if (!is_dir($loc."/${name}"))
 			{mkdir($loc."/${name}");}
 				

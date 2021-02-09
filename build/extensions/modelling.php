@@ -86,6 +86,7 @@ function extensionModelling ($d, $pd)
 		read_config(); //defines the content of the global variable $config
     $config['jsonUrl'] = "d3_${name}.json";
 
+		$title = ucfirst($name)." semantic model - CIDOC CRM";
 		$json = json_encode($config);
 		$html = D3_displayModel ($title, $dataset, $json, $pd["page"]);
 		$myfile = fopen($html_path."models/d3_${name}.html", "w");

@@ -855,7 +855,7 @@ function D3_read_data() {
     if (!$config) read_config();
 
     $json   = json_decode(file_get_contents("data/$dataset/objects.json"), true);
-    print_r ($json);
+    //print_r ($json);
     $data   = array();
     $errors = array();
 

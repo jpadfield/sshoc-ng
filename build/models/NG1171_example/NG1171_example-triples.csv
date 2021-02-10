@@ -3,103 +3,99 @@
 // D8.5 Figure 6
 ////////////////////////////////////////////////////////////////////////
 
-ngo:S780-8SSR-HNF5-KW5T	crm:P2_has_type	crm:E53_Place
-Nfa3db239ee9d43f1b18c5bd4178b97df	crm:P2_has_type	crm:E42_Identifier
-Ne05bfeca19ef4f92852e1757751a2c20	crm:P2_has_type	crm:E35_Title
-ngo:86SD-DHCI-A7IZ-2117	crm:P89_falls_within	ngo:XJMV-GS7O-QA5V-3SEG
-ngo:S780-8SSR-HNF5-KW5T	crm:P53_has_former_or_current_location	N4a3e9d0c88cf435582186933cd05d322
-N853cd040a1024753b26ac998f5f96d53	crm:P2_has_type	crm:E35_Title
-ngo:Y4N0-JNGT-MOPV-GWNH	crm:P4_has_time_span	Nea88fcab917e4a87b923d1addd056a83
-ngo:000-0432-0000	crm:P45_consists_of	Nd00d74a7f4af4a41ad10da1d3d33d7cb
-aat:300379098	crm:P1i_identifies	centimeters@en
-ngo:3HNU-DJRH-U3CC-2VTB	crm:P53_has_former_or_current_location	N8f4153f3fff742d0a87409e4e752377f
-aat:300055647	crm:P1i_identifies	width@en
-ngo:86O6-Z6YG-YL6M-10CR	crm:P89_falls_within	ngo:S780-8SSR-HNF5-KW5T
-ngo:Y4N0-JNGT-MOPV-GWNH	crm:P2_has_type	aat:300404387
-ngo:86SD-DHCI-A7IZ-2117	crm:P1i_identifies	rrr:Room_A
-ngo:000-0432-0000	crm:P108i_was_produced_by	ngo:Y4N0-JNGT-MOPV-GWNH
-N8f4153f3fff742d0a87409e4e752377f	crm:P2_has_type	crm:E53_Place
-N347f1309ffae4e3bb454ad27a7787bbf	crm:P91_has_unit	aat:300379098
-ngo:86O6-Z6YG-YL6M-10CR	crm:P89_falls_within	ngo:73VN-N3AN-P9U4-T9GW
-N6e55f62efe7d4ce88d6f30f20fddbf94	crm:P2_has_type	crm:E53_Place
-ngo:3HNU-DJRH-U3CC-2VTB	crm:P2_has_type	aat:300025231
-ngo:3HNU-DJRH-U3CC-2VTB	crm:P2_has_type	aat:300403974
-Nea88fcab917e4a87b923d1addd056a83	crm:P2_has_type	aat:300379244
-Nd00d74a7f4af4a41ad10da1d3d33d7cb	crm:P2_has_type	crm:E57_Material
-Nd9d42d0d2fc348b8a1e7819d2dc5b492	crm:P2_has_type	crm:E73_Information_Object
-ngo:000-0432-0000	crm:P2_has_type	rrr:RCL218.Object
-ngo:X49G-D5FL-LLD5-L23X	crm:P1i_identifies	rrr:Raphael
-aat:300055644	crm:P1i_identifies	height@en
-ngo:ZGSO-VAD2-9Z05-06C8	crm:P2_has_type	crm:E78_Curated_Holding
-N347f1309ffae4e3bb454ad27a7787bbf	crm:P2_has_type	aat:300055644
-N853cd040a1024753b26ac998f5f96d53	crm:P1i_identifies	The Madonna and Child with Saint John the Baptist and Saint Nicholas of Bari ('The Ansidei Madonna')
-Nd9d42d0d2fc348b8a1e7819d2dc5b492	crm:P1i_identifies	http://www.nationalgallery.org.uk/
-N6e55f62efe7d4ce88d6f30f20fddbf94	crm:P1i_identifies	rrr:London
-Nea88fcab917e4a87b923d1addd056a83	crm:P82b_end_of_the_end	1505-12-31
-Ne728d6fa06df4fe29c18b37694a05d46	crm:P91_has_unit	aat:300379098
-ngo:S780-8SSR-HNF5-KW5T	crm:P48_has_preferred_identifier	N0b3a50d3f6ea4c90a9444802446eb8bc
-aat:300417208	crm:P1i_identifies	brief title@en
-aat:300163343	crm:P1i_identifies	media (artists' material)@en
-ngo:3HNU-DJRH-U3CC-2VTB	crm:P70i_is_documented_in	Nd9d42d0d2fc348b8a1e7819d2dc5b492
-ngo:86O6-Z6YG-YL6M-10CR	crm:P89_falls_within	ngo:7MVI-36I4-SMM0-XN8O
-ngo:000-0432-0000	crm:P2_has_type	crm:E22_Human_Made_Object
-ngo:3HNU-DJRH-U3CC-2VTB	crm:P53_has_former_or_current_location	N6e55f62efe7d4ce88d6f30f20fddbf94
+N606e5f938afc470c86075bc776742a3e	crm:P1i_identifies	http://www.nationalgallery.org.uk/
+N204178a5cc5f40259fae9053e19ebe2d	crm:P1i_identifies	rro:London
+N4b4df24a290642ae97f0b46717141b59	crm:P1i_identifies	rro:London
 aat:300014844	crm:P1i_identifies	supports (artists' materials)@en
-ngo:000-0432-0000	crm:P2_has_type	rrr:RCL181.Historical_Information
-N347f1309ffae4e3bb454ad27a7787bbf	crm:P2_has_type	crm:E54_Dimension
-aat:300379244	crm:P1i_identifies	years@en
-aat:300025231	crm:P1i_identifies	partners
-N0b3a50d3f6ea4c90a9444802446eb8bc	crm:P1i_identifies	The National Gallery
-N9c9be306d6e7488ca6c5cb74ca30b80e	crm:P1i_identifies	The National Gallery
-aat:300012363	crm:P1i_identifies	poplar (wood)
-ngo:000-0432-0000	crm:P46_forms_part_of	ngo:ZGSO-VAD2-9Z05-06C8
-ngo:S780-8SSR-HNF5-KW5T	crm:P53_has_former_or_current_location	N6949786ece4c40d695bd9fa51876e8cd
-ngo:86SD-DHCI-A7IZ-2117	crm:P89_falls_within	ngo:S780-8SSR-HNF5-KW5T
-Ne05bfeca19ef4f92852e1757751a2c20	crm:P2_has_type	aat:300417208
-N0b3a50d3f6ea4c90a9444802446eb8bc	crm:P2_has_type	crm:E42_Identifier
-N347f1309ffae4e3bb454ad27a7787bbf	crm:P90_has_value	216.80
-N28e861db22ef446e824cee70e4a07c4f	crm:P2_has_type	aat:300014844
-ngo:000-0432-0000	crm:P43_has_dimension	N347f1309ffae4e3bb454ad27a7787bbf
-ngo:X49G-D5FL-LLD5-L23X	crm:P2_has_type	crm:E39_Actor
-ngo:3HNU-DJRH-U3CC-2VTB	crm:P156_occupies	ngo:S780-8SSR-HNF5-KW5T
-N6949786ece4c40d695bd9fa51876e8cd	crm:P1i_identifies	rrr:London
-Ne05bfeca19ef4f92852e1757751a2c20	crm:P1i_identifies	The Ansidei Madonna
-ngo:000-0432-0000	crm:P2_has_type	rrr:RCL182.Art_History
-aat:300015050	crm:P1i_identifies	oil paint (paint)
-N9c9be306d6e7488ca6c5cb74ca30b80e	crm:P2_has_type	crm:E42_Identifier
-Nd00d74a7f4af4a41ad10da1d3d33d7cb	crm:P2_has_type	aat:300015050
-Ne728d6fa06df4fe29c18b37694a05d46	crm:P2_has_type	crm:E54_Dimension
-ngo:ZGSO-VAD2-9Z05-06C8	crm:P1i_identifies	rrr:The_National_Gallery_Collection
-N4a3e9d0c88cf435582186933cd05d322	crm:P2_has_type	crm:E53_Place
-N853cd040a1024753b26ac998f5f96d53	crm:P2_has_type	aat:300417209
-N8f4153f3fff742d0a87409e4e752377f	crm:P1i_identifies	rrr:London
-ngo:3HNU-DJRH-U3CC-2VTB	crm:P3_has_note	The National Gallery in London, founded in 1824, houses a rich collection of over 2,500 paintings dating from the mid-13th century to 1900 in its home on Trafalgar Square.
-ngo:3HNU-DJRH-U3CC-2VTB	crm:P2_has_type	crm:E74_Group
-N4a3e9d0c88cf435582186933cd05d322	crm:P1i_identifies	rrr:London
-ngo:Y4N0-JNGT-MOPV-GWNH	crm:P2_has_type	crm:E12_Production
-ngo:3HNU-DJRH-U3CC-2VTB	crm:P48_has_preferred_identifier	N9c9be306d6e7488ca6c5cb74ca30b80e
-ngo:86O6-Z6YG-YL6M-10CR	crm:P1i_identifies	rrr:Room_8
-ngo:000-0432-0000	crm:P102_has_title	Ne05bfeca19ef4f92852e1757751a2c20
-ngo:3HNU-DJRH-U3CC-2VTB	crm:P2_has_type	crm:E53_Place
-aat:300404387	crm:P1i_identifies	creating (artistic activity)@en
-Nd00d74a7f4af4a41ad10da1d3d33d7cb	crm:P2_has_type	aat:300163343
-Nea88fcab917e4a87b923d1addd056a83	crm:P82a_begin_of_the_begin	1505-01-01
-ngo:000-0432-0000	crm:P102_has_title	N853cd040a1024753b26ac998f5f96d53
-ngo:000-0432-0000	crm:P43_has_dimension	Ne728d6fa06df4fe29c18b37694a05d46
-ngo:000-0432-0000	crm:P48_has_preferred_identifier	Nfa3db239ee9d43f1b18c5bd4178b97df
-N28e861db22ef446e824cee70e4a07c4f	crm:P2_has_type	aat:300012363
-Ne728d6fa06df4fe29c18b37694a05d46	crm:P2_has_type	aat:300055647
-Nea88fcab917e4a87b923d1addd056a83	crm:P1i_identifies	rrr:RRR_1505
-N6949786ece4c40d695bd9fa51876e8cd	crm:P2_has_type	crm:E53_Place
-N28e861db22ef446e824cee70e4a07c4f	crm:P2_has_type	crm:E57_Material
-ngo:3HNU-DJRH-U3CC-2VTB	crm:P50i_is_current_keeper_of	ngo:ZGSO-VAD2-9Z05-06C8
-Nfa3db239ee9d43f1b18c5bd4178b97df	crm:P1i_identifies	NG1171
-ngo:3HNU-DJRH-U3CC-2VTB	owl:sameAs	wd:Q180788
-ngo:Y4N0-JNGT-MOPV-GWNH	crm:P14_carried_out_by	ngo:X49G-D5FL-LLD5-L23X
+ngo:3HNU-DJRH-U3CC-2VTB	crm:P70i_is_documented_in	N606e5f938afc470c86075bc776742a3e
 aat:300417209	crm:P1i_identifies	full title@en
-Ne728d6fa06df4fe29c18b37694a05d46	crm:P90_has_value	147.60
-aat:300403974	crm:P1i_identifies	contributors
-ngo:86SD-DHCI-A7IZ-2117	crm:P89_falls_within	ngo:73VN-N3AN-P9U4-T9GW
+N6c9718743f3b4bd58b9ead44cd9502ee	crm:P1i_identifies	rro:RRR_1505
+ngo:3HNU-DJRH-U3CC-2VTB	crm:P2_has_type	aat:300403974
 ngo:S780-8SSR-HNF5-KW5T	crm:P2_has_type	crm:E74_Group
-Nea88fcab917e4a87b923d1addd056a83	crm:P2_has_type	crm:E52_Time_span
-ngo:000-0432-0000	crm:P45_consists_of	N28e861db22ef446e824cee70e4a07c4f
+ngo:86SD-DHCI-A7IZ-2117	crm:P89_falls_within	ngo:S780-8SSR-HNF5-KW5T
+ngo:000-0432-0000	crm:P2_has_type	rro:RCL218.Object
+ngo:ZGSO-VAD2-9Z05-06C8	crm:P1i_identifies	rro:The_National_Gallery_Collection
+aat:300012363	crm:P1i_identifies	poplar (wood)
+ngo:S780-8SSR-HNF5-KW5T	crm:P53_has_former_or_current_location	N204178a5cc5f40259fae9053e19ebe2d
+ngo:S780-8SSR-HNF5-KW5T	crm:P53_has_former_or_current_location	N4b4df24a290642ae97f0b46717141b59
+N66a16917a53f478197bb211d851d3302	crm:P90_has_value	147.60
+N7014626bc7b44369b6e0be48bc472420	crm:P2_has_type	crm:E57_Material
+N66a16917a53f478197bb211d851d3302	crm:P91_has_unit	aat:300379098
+ngo:3HNU-DJRH-U3CC-2VTB	crm:P53_has_former_or_current_location	N2d37920115204b10ab6d3a30ba6c0507
+aat:300025231	crm:P1i_identifies	partners
+N2d37920115204b10ab6d3a30ba6c0507	crm:P2_has_type	crm:E53_Place
+N42f5059877b1446797c9d423ea067e00	crm:P2_has_type	crm:E54_Dimension
+ngo:000-0432-0000	crm:P48_has_preferred_identifier	Ne63aa8859a894821bf7fa43ab4188cc5
+ngo:000-0432-0000	crm:P2_has_type	rro:RCL182.Art_History
+ngo:000-0432-0000	crm:P45_consists_of	Nd8f5f61d112249a0b7b90edcf42c6ba7
+N49fd3a3d4baf4cd1b89729e0c5a104cb	crm:P1i_identifies	The National Gallery
+aat:300404387	crm:P1i_identifies	creating (artistic activity)@en
+Nd8f5f61d112249a0b7b90edcf42c6ba7	crm:P2_has_type	crm:E57_Material
+ngo:X49G-D5FL-LLD5-L23X	crm:P2_has_type	crm:E39_Actor
+ngo:000-0432-0000	crm:P2_has_type	rro:RCL181.Historical_Information
+ngo:000-0432-0000	crm:P43_has_dimension	N42f5059877b1446797c9d423ea067e00
+N4b4df24a290642ae97f0b46717141b59	crm:P2_has_type	crm:E53_Place
+ngo:000-0432-0000	crm:P102_has_title	N6a209025beb649d199bdb816506a29c8
+N6a209025beb649d199bdb816506a29c8	crm:P2_has_type	crm:E35_Title
+ngo:3HNU-DJRH-U3CC-2VTB	crm:P3_has_note	The National Gallery in London, founded in 1824, houses a rich collection of over 2,500 paintings dating from the mid-13th century to 1900 in its home on Trafalgar Square.
+N6a209025beb649d199bdb816506a29c8	crm:P1i_identifies	The Madonna and Child with Saint John the Baptist and Saint Nicholas of Bari ('The Ansidei Madonna')
+N49fd3a3d4baf4cd1b89729e0c5a104cb	crm:P2_has_type	crm:E42_Identifier
+Nd8f5f61d112249a0b7b90edcf42c6ba7	crm:P2_has_type	aat:300014844
+ngo:Y4N0-JNGT-MOPV-GWNH	crm:P4_has_time_span	N6c9718743f3b4bd58b9ead44cd9502ee
+ngo:Y4N0-JNGT-MOPV-GWNH	crm:P2_has_type	crm:E12_Production
+N2d37920115204b10ab6d3a30ba6c0507	crm:P1i_identifies	rro:London
+ngo:S780-8SSR-HNF5-KW5T	crm:P48_has_preferred_identifier	N49fd3a3d4baf4cd1b89729e0c5a104cb
+N808622198f3645e5b89bde31c9b8e3bc	crm:P2_has_type	crm:E35_Title
+N42f5059877b1446797c9d423ea067e00	crm:P91_has_unit	aat:300379098
+ngo:S780-8SSR-HNF5-KW5T	crm:P2_has_type	crm:E53_Place
+N6c9718743f3b4bd58b9ead44cd9502ee	crm:P2_has_type	crm:E52_Time_span
+ngo:Y4N0-JNGT-MOPV-GWNH	crm:P14_carried_out_by	ngo:X49G-D5FL-LLD5-L23X
+aat:300055644	crm:P1i_identifies	height@en
+ngo:86O6-Z6YG-YL6M-10CR	crm:P89_falls_within	ngo:S780-8SSR-HNF5-KW5T
+ngo:ZGSO-VAD2-9Z05-06C8	crm:P2_has_type	crm:E78_Curated_Holding
+Nbc8992de3cee4020acec4251ae2995c5	crm:P2_has_type	crm:E42_Identifier
+N6c9718743f3b4bd58b9ead44cd9502ee	crm:P2_has_type	aat:300379244
+ngo:3HNU-DJRH-U3CC-2VTB	crm:P156_occupies	ngo:S780-8SSR-HNF5-KW5T
+ngo:3HNU-DJRH-U3CC-2VTB	crm:P2_has_type	aat:300025231
+Ne63aa8859a894821bf7fa43ab4188cc5	crm:P2_has_type	crm:E42_Identifier
+N808622198f3645e5b89bde31c9b8e3bc	crm:P1i_identifies	The Ansidei Madonna
+N7014626bc7b44369b6e0be48bc472420	crm:P2_has_type	aat:300163343
+N7014626bc7b44369b6e0be48bc472420	crm:P2_has_type	aat:300015050
+N494079a9916142ee9b9df3f851293b95	crm:P1i_identifies	rro:London
+N42f5059877b1446797c9d423ea067e00	crm:P2_has_type	aat:300055644
+ngo:000-0432-0000	crm:P102_has_title	N808622198f3645e5b89bde31c9b8e3bc
+N606e5f938afc470c86075bc776742a3e	crm:P2_has_type	crm:E73_Information_Object
+N6c9718743f3b4bd58b9ead44cd9502ee	crm:P82b_end_of_the_end	1505-12-31
+ngo:3HNU-DJRH-U3CC-2VTB	crm:P2_has_type	crm:E53_Place
+aat:300055647	crm:P1i_identifies	width@en
+N6c9718743f3b4bd58b9ead44cd9502ee	crm:P82a_begin_of_the_begin	1505-01-01
+ngo:000-0432-0000	crm:P108i_was_produced_by	ngo:Y4N0-JNGT-MOPV-GWNH
+aat:300163343	crm:P1i_identifies	media (artists' material)@en
+aat:300015050	crm:P1i_identifies	oil paint (paint)
+Ne63aa8859a894821bf7fa43ab4188cc5	crm:P1i_identifies	NG1171
+ngo:000-0432-0000	crm:P45_consists_of	N7014626bc7b44369b6e0be48bc472420
+aat:300417208	crm:P1i_identifies	brief title@en
+ngo:86O6-Z6YG-YL6M-10CR	crm:P1i_identifies	rro:Room_8
+ngo:Y4N0-JNGT-MOPV-GWNH	crm:P2_has_type	aat:300404387
+N66a16917a53f478197bb211d851d3302	crm:P2_has_type	aat:300055647
+aat:300403974	crm:P1i_identifies	contributors
+ngo:3HNU-DJRH-U3CC-2VTB	crm:P48_has_preferred_identifier	Nbc8992de3cee4020acec4251ae2995c5
+aat:300379098	crm:P1i_identifies	centimeters@en
+ngo:86SD-DHCI-A7IZ-2117	crm:P1i_identifies	rro:Room_A
+ngo:3HNU-DJRH-U3CC-2VTB	crm:P2_has_type	crm:E74_Group
+N204178a5cc5f40259fae9053e19ebe2d	crm:P2_has_type	crm:E53_Place
+ngo:000-0432-0000	crm:P46_forms_part_of	ngo:ZGSO-VAD2-9Z05-06C8
+N494079a9916142ee9b9df3f851293b95	crm:P2_has_type	crm:E53_Place
+ngo:3HNU-DJRH-U3CC-2VTB	crm:P53_has_former_or_current_location	N494079a9916142ee9b9df3f851293b95
+ngo:000-0432-0000	crm:P2_has_type	crm:E22_Human_Made_Object
+N66a16917a53f478197bb211d851d3302	crm:P2_has_type	crm:E54_Dimension
+ngo:X49G-D5FL-LLD5-L23X	crm:P1i_identifies	rro:Raphael
+ngo:3HNU-DJRH-U3CC-2VTB	owl:sameAs	wd:Q180788
+aat:300379244	crm:P1i_identifies	years@en
+N808622198f3645e5b89bde31c9b8e3bc	crm:P2_has_type	aat:300417208
+Nbc8992de3cee4020acec4251ae2995c5	crm:P1i_identifies	The National Gallery
+N42f5059877b1446797c9d423ea067e00	crm:P90_has_value	216.80
+ngo:3HNU-DJRH-U3CC-2VTB	crm:P50i_is_current_keeper_of	ngo:ZGSO-VAD2-9Z05-06C8
+ngo:000-0432-0000	crm:P43_has_dimension	N66a16917a53f478197bb211d851d3302
+Nd8f5f61d112249a0b7b90edcf42c6ba7	crm:P2_has_type	aat:300012363
+N6a209025beb649d199bdb816506a29c8	crm:P2_has_type	aat:300417209

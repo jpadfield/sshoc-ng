@@ -1,3 +1,8 @@
+////////////////////////////////////////////////////////////////////////
+// Model: NG1171_example // NG1171 worked example [OD]
+// D8.5 Figure 6
+////////////////////////////////////////////////////////////////////////
+
 ngo:S780-8SSR-HNF5-KW5T	crm:P2_has_type	crm:E53_Place
 Nfa3db239ee9d43f1b18c5bd4178b97df	crm:P2_has_type	crm:E42_Identifier
 Ne05bfeca19ef4f92852e1757751a2c20	crm:P2_has_type	crm:E35_Title

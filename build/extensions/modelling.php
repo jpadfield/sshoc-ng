@@ -222,7 +222,7 @@ function getRaw($data)
 		// Increment triple number
 		$tn++;
 	
-		if(preg_match("/^[\/][\/][ ]Model[:][\s]*([a-zA-Z0-9 ]+)[\s]*[\/][\/](.+)$/", $line, $m))
+		if(preg_match("/^[\/][\/][ ]Model[:][\s]*([a-zA-Z0-9 _]+)[\s]*[\/][\/](.+)$/", $line, $m))
 			{$model = array(trim($m[1]), trim($m[2]));
 			 $output[$model[0]]["model"] = $model[0];
 			 $output[$model[0]]["comment"] = $model[1];

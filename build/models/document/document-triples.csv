@@ -1,4 +1,8 @@
-Subject	Predicate	Object
+////////////////////////////////////////////////////////////////////////
+// Model: document // Digital Document [OD]
+// D8.5 Figure 1
+////////////////////////////////////////////////////////////////////////
+
 N7c43e9f2df82499484f767f161b8b26a	crm:P90_has_value	5761240
 Nb9a03137709648b892196c6c1b9a6ccb	crm:P1i_identifies	Technical_Bulletin_8_1984_15-23.pdf
 N3abb81436e944ef8899c5c5d6e0ee426	crm:P1i_identifies	National Gallery Technical Bulletin

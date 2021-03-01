@@ -10,7 +10,7 @@
 		"footer": "",
 		"extra_logos": {
 			"github": {
-				"link": "https://github.com/jpadfield/sshoc-ng.examples",
+				"link": "https://github.com/jpadfield/sshoc-ng",
 				"logo": "graphics/github%20logo%20white.png",
 				"alt": "GitHub Jpadfield SSHOC Modelling Example"
 			}

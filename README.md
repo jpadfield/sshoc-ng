@@ -17,5 +17,5 @@ The visualisation web-pages are built using an automated process based on the cu
 [<img height="64px" src="https://github.com/jpadfield/simple-modelling/blob/master/docs/graphics/sshoc-logo.png" alt="SSHOC">](https://sshopencloud.eu/)<br/>
 [<img height="32px" src="https://github.com/jpadfield/simple-modelling/blob/master/docs/graphics/sshoc-eu-tag2.png" alt="SSHOC">](https://sshopencloud.eu/)
 
-* This initial development work of first set of mapping models was carried out as part of the H2020 EU project [IPERION-CH](http://www.iperionch.eu/)
-<img height="32px" src="https://github.com/jpadfield/nip2-extras/blob/master/images/iperion-ch-eu-tag_black.png" alt="IPERION-CH Grant Info">
+* This initial development work of first set of mapping models was carried out as part of the H2020 EU project [IPERION-CH](http://www.iperionch.eu/)<br/>
+[<img height="32px" src="https://github.com/jpadfield/nip2-extras/blob/master/images/iperion-ch-eu-tag_black.png" alt="IPERION-CH Grant Info">]

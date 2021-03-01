@@ -93,28 +93,28 @@ classDef url stroke:#2C5D98,fill:white,color:#2C5D98,rx:5px,ry:5px;
 classDef note stroke:#2C5D98,fill:#D8FDFF,color:#2C5D98,rx:5px,ry:5px;
 
 O0("ngo:S780-8SSR-HNF5-KW5T")
-class O0 oPID;
+class O0 place|type;
 
 O1("crm:E53_Place-0")
 class O1 crm;
 O0 -- crm:P2_has_type -->O1["crm:E53_Place"]
 
 O2("Nfa3db239ee9d43f1b18c5bd4178b97df")
-class O2 |type;
+class O2 thing|type;
 
 O3("crm:E42_Identifier-1")
 class O3 crm;
 O2 -- crm:P2_has_type -->O3["crm:E42_Identifier"]
 
 O4("Ne05bfeca19ef4f92852e1757751a2c20")
-class O4 |type;
+class O4 name|type;
 
 O5("crm:E35_Title-2")
 class O5 crm;
 O4 -- crm:P2_has_type -->O5["crm:E35_Title"]
 
 O6("ngo:86SD-DHCI-A7IZ-2117")
-class O6 oPID;
+class O6 place|place;
 
 O7("ngo:XJMV-GS7O-QA5V-3SEG")
 class O7 oPID;
@@ -125,21 +125,21 @@ class O8 literal;
 O0 -- crm:P53_has_former_or_current_location -->O8["N4a3e9d0c88cf435582186933cd05d322"]
 
 O9("N853cd040a1024753b26ac998f5f96d53")
-class O9 |type;
+class O9 name|type;
 
 O10("crm:E35_Title-3")
 class O10 crm;
 O9 -- crm:P2_has_type -->O10["crm:E35_Title"]
 
 O11("ngo:Y4N0-JNGT-MOPV-GWNH")
-class O11 |period_bn;
+class O11 event|period_bn;
 
 O12("Nea88fcab917e4a87b923d1addd056a83")
 class O12 literal;
 O11 -- crm:P4_has_time_span -->O12["Nea88fcab917e4a87b923d1addd056a83"]
 
 O13("ngo:000-0432-0000")
-class O13 |object_bn;
+class O13 object|object_bn;
 click O13 "http://data.ng-london.org.uk/resource/000-0432-0000" "Tooltip"
 
 O14("Nd00d74a7f4af4a41ad10da1d3d33d7cb")
@@ -147,7 +147,7 @@ class O14 literal;
 O13 -- crm:P45_consists_of -->O14["Nd00d74a7f4af4a41ad10da1d3d33d7cb"]
 
 O15("aat:300379098")
-class O15 |dims;
+class O15 dims|literal;
 click O15 "http://vocab.getty.edu/aat/300379098" "Tooltip"
 
 O16("centimeters@en")
@@ -155,14 +155,14 @@ class O16 literal;
 O15 -- crm:P1i_identifies -->O16["centimeters@en"]
 
 O17("ngo:3HNU-DJRH-U3CC-2VTB")
-class O17 |place_bn;
+class O17 actor|place_bn;
 
 O18("N8f4153f3fff742d0a87409e4e752377f")
 class O18 literal;
 O17 -- crm:P53_has_former_or_current_location -->O18["N8f4153f3fff742d0a87409e4e752377f"]
 
 O19("aat:300055647")
-class O19 |dims;
+class O19 dims|literal;
 click O19 "http://vocab.getty.edu/aat/300055647" "Tooltip"
 
 O20("width@en")
@@ -170,7 +170,7 @@ class O20 literal;
 O19 -- crm:P1i_identifies -->O20["width@en"]
 
 O21("ngo:86O6-Z6YG-YL6M-10CR")
-class O21 oPID;
+class O21 place|place;
 O21 -- crm:P89_falls_within -->O0["ngo:S780-8SSR-HNF5-KW5T"]
 
 O22("aat:300404387")
@@ -188,7 +188,7 @@ class O24 crm;
 O18 -- crm:P2_has_type -->O24["crm:E53_Place"]
 
 O25("N347f1309ffae4e3bb454ad27a7787bbf")
-class O25 literal;
+class O25 dims_bn|dims;
 O25 -- crm:P91_has_unit -->O15["aat:300379098"]
 
 O26("ngo:73VN-N3AN-P9U4-T9GW")
@@ -196,7 +196,7 @@ class O26 oPID;
 O21 -- crm:P89_falls_within -->O26["ngo:73VN-N3AN-P9U4-T9GW"]
 
 O27("N6e55f62efe7d4ce88d6f30f20fddbf94")
-class O27 |type;
+class O27 place_bn|type;
 
 O28("crm:E53_Place-5")
 class O28 crm;
@@ -222,7 +222,7 @@ class O32 crm;
 O14 -- crm:P2_has_type -->O32["crm:E57_Material"]
 
 O33("Nd9d42d0d2fc348b8a1e7819d2dc5b492")
-class O33 literal;
+class O33 object_bn|type;
 
 O34("crm:E73_Information_Object-7")
 class O34 crm;
@@ -233,14 +233,14 @@ class O35 literal;
 O13 -- crm:P2_has_type -->O35["rrr:RCL218.Object"]
 
 O36("ngo:X49G-D5FL-LLD5-L23X")
-class O36 oPID;
+class O36 actor|literal;
 
 O37("rrr:Raphael")
 class O37 literal;
 O36 -- crm:P1i_identifies -->O37["rrr:Raphael"]
 
 O38("aat:300055644")
-class O38 type;
+class O38 dims|literal;
 click O38 "http://vocab.getty.edu/aat/300055644" "Tooltip"
 
 O39("height@en")
@@ -248,7 +248,7 @@ class O39 literal;
 O38 -- crm:P1i_identifies -->O39["height@en"]
 
 O40("ngo:ZGSO-VAD2-9Z05-06C8")
-class O40 |type;
+class O40 object|type;
 
 O41("crm:E78_Curated_Holding-8")
 class O41 crm;
@@ -273,7 +273,7 @@ class O45 literal;
 O12 -- crm:P82b_end_of_the_end -->O45["1505-12-31"]
 
 O46("Ne728d6fa06df4fe29c18b37694a05d46")
-class O46 |dims;
+class O46 dims_bn|dims;
 O46 -- crm:P91_has_unit -->O15["aat:300379098"]
 
 O47("N0b3a50d3f6ea4c90a9444802446eb8bc")
@@ -281,7 +281,7 @@ class O47 literal;
 O0 -- crm:P48_has_preferred_identifier -->O47["N0b3a50d3f6ea4c90a9444802446eb8bc"]
 
 O48("aat:300417208")
-class O48 |name;
+class O48 name|literal;
 click O48 "http://vocab.getty.edu/aat/300417208" "Tooltip"
 
 O49("brief title@en")
@@ -289,7 +289,7 @@ class O49 literal;
 O48 -- crm:P1i_identifies -->O49["brief title@en"]
 
 O50("aat:300163343")
-class O50 |type;
+class O50 object|literal;
 click O50 "http://vocab.getty.edu/aat/300163343" "Tooltip"
 
 O51("media (artists' material)@en")
@@ -307,7 +307,7 @@ O13 -- crm:P2_has_type -->O53["crm:E22_Human_Made_Object"]
 O17 -- crm:P53_has_former_or_current_location -->O27["N6e55f62efe7d4ce88d6f30f20fddbf94"]
 
 O54("aat:300014844")
-class O54 type;
+class O54 object|literal;
 click O54 "http://vocab.getty.edu/aat/300014844" "Tooltip"
 
 O55("supports (artists' materials)@en")
@@ -326,25 +326,25 @@ O58("years@en")
 class O58 literal;
 O31 -- crm:P1i_identifies -->O58["years@en"]
 
-O59("partners")
+O59("partners@en")
 class O59 literal;
-O29 -- crm:P1i_identifies -->O59["partners"]
+O29 -- crm:P1i_identifies -->O59["partners@en"]
 
 O60("The National Gallery")
 class O60 literal;
 O47 -- crm:P1i_identifies -->O60["The National Gallery"]
 
 O61("N9c9be306d6e7488ca6c5cb74ca30b80e")
-class O61 |place;
+class O61 actor_bn|literal;
 O61 -- crm:P1i_identifies -->O60["The National Gallery"]
 
 O62("aat:300012363")
-class O62 |object;
+class O62 object|literal;
 click O62 "http://vocab.getty.edu/aat/300012363" "Tooltip"
 
-O63("poplar (wood)")
+O63("poplar (wood)@en")
 class O63 literal;
-O62 -- crm:P1i_identifies -->O63["poplar (wood)"]
+O62 -- crm:P1i_identifies -->O63["poplar (wood)@en"]
 O13 -- crm:P46_forms_part_of -->O40["ngo:ZGSO-VAD2-9Z05-06C8"]
 
 O64("N6949786ece4c40d695bd9fa51876e8cd")
@@ -362,7 +362,7 @@ class O66 literal;
 O25 -- crm:P90_has_value -->O66["216.80"]
 
 O67("N28e861db22ef446e824cee70e4a07c4f")
-class O67 |type;
+class O67 object_bn|type;
 O67 -- crm:P2_has_type -->O54["aat:300014844"]
 O13 -- crm:P43_has_dimension -->O25["N347f1309ffae4e3bb454ad27a7787bbf"]
 
@@ -381,12 +381,12 @@ class O70 literal;
 O13 -- crm:P2_has_type -->O70["rrr:RCL182.Art_History"]
 
 O71("aat:300015050")
-class O71 |type;
+class O71 object|literal;
 click O71 "http://vocab.getty.edu/aat/300015050" "Tooltip"
 
-O72("oil paint (paint)")
+O72("oil paint (paint)@en")
 class O72 literal;
-O71 -- crm:P1i_identifies -->O72["oil paint (paint)"]
+O71 -- crm:P1i_identifies -->O72["oil paint (paint)@en"]
 
 O73("crm:E42_Identifier-13")
 class O73 crm;

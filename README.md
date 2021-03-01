@@ -13,7 +13,7 @@ The visualisation web-pages are built using an automated process based on the cu
 <table><tr><td><a href="https://jpadfield.github.io/cidoc-crm.examples/"><img src="https://github.com/jpadfield/cidoc-crm.examples/blob/master/docs/graphics/NG Example CRM Modelling.png" alt="Example Screenshot"></a></td></tr></table>
 
 # Acknowledgement
-* The work of getting these models into GitHub and providing the structure for open development of these models was carried out as part of the H2020 EU project [SSHOC](https://sshopencloud.eu/)
+* The work of getting these models into GitHub and providing the structure for open development of these models was carried out as part of the H2020 EU project [SSHOC](https://sshopencloud.eu/)<br/>
 [<img height="64px" src="https://github.com/jpadfield/simple-modelling/blob/master/docs/graphics/sshoc-logo.png" alt="SSHOC">](https://sshopencloud.eu/)<br/>
 [<img height="32px" src="https://github.com/jpadfield/simple-modelling/blob/master/docs/graphics/sshoc-eu-tag2.png" alt="SSHOC">](https://sshopencloud.eu/)
 

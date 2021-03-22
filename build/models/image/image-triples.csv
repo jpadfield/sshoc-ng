@@ -1,4 +1,7 @@
-Subject	Predicate	Object
+////////////////////////////////////////////////////////////////////////
+// Model: image // Image Model [OD]
+// D8.5 Figure 5
+////////////////////////////////////////////////////////////////////////
 N0b1f193440c54e8db2503d00b9aee60e	crm:P2_has_type	wd:Q873806
 aat:300055644	crm:P1i_identifies	height@en
 Nb7cbd2a08f7141528eeec282db401923	crm:P2_has_type	crm:E54_Dimension

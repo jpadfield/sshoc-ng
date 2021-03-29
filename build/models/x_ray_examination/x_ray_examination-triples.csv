@@ -1,4 +1,7 @@
-Subject	Predicate	Object
+////////////////////////////////////////////////////////////////////////
+// Model: x_ray_examination // X-Ray Examination [OD]
+// D8.5 Figure 7
+////////////////////////////////////////////////////////////////////////
 ngo:NFF9-T124-Z0GM-2YSB	crm:P43_has_dimension	N8e8c9725bbfe4b7a8c80612d4fc3975a
 aat:300266226	crm:P1i_identifies	TIFF@en
 ngo:NFF9-T124-Z0GM-2YSB	crm:P108i_was_produced_by	ngo:9JBM-UYCS-9BQK-RRQI

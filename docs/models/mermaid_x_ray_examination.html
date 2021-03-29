@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="utf-8">
+        <title></title>
+        
+        <!--- <link rel="stylesheet" href="../css/mermaid.css"> -->
+    <style>			
+		
+body
+{
+  #background-color: #fcfcfc;
+}
+
+
+.list
+{
+	left:80px;
+}
+
+g a 
+			{color:inherit;}
+
+.nav-button {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.btn-default {
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: #333333;
+    background-color: #ebebeb;
+    border-color: #adadad;
+}
+
+		</style>
+  </head>
+    <body>
+    <div class="center-div">
+        <div id="split-container">
+            <a class="btn btn-default nav-button" id="nav-home" href="../">
+                Home
+            </a>            
+            <a class="btn btn-default nav-button" style="left:80px;" id="nav-models" href="../Raphael Examples.html">
+                Models
+            </a>
+            <div id="graph-container">
+                <div id="graph">	<div class="mermaid">
+graph LR
+
+classDef crm stroke:#333333,fill:#DCDCDC,color:#333333,rx:5px,ry:5px;
+classDef thing stroke:#2C5D98,fill:#D0E5FF,color:#2C5D98,rx:5px,ry:5px;
+classDef event stroke:#6B9624,fill:#D0DDBB,color:#6B9624,rx:5px,ry:5px;
+classDef oPID stroke:#2C5D98,fill:#2C5D98,color:white,rx:5px,ry:5px;
+classDef ePID stroke:#6B9624,fill:#6B9624,color:white,rx:5px,ry:5px;
+classDef aPID stroke:black,fill:#FFFF99,rx:20px,ry:20px;
+classDef type stroke:red,fill:#B51511,color:white,rx:5px,ry:5px;
+classDef name stroke:orange,fill:#FEF3BA,rx:20px,ry20px;
+classDef literal stroke:black,fill:#FFB975,rx:2px,ry:2px,max-width:100px;
+classDef classstyle stroke:black,fill:white;
+classDef url stroke:#2C5D98,fill:white,color:#2C5D98,rx:5px,ry:5px;
+classDef note stroke:#2C5D98,fill:#D8FDFF,color:#2C5D98,rx:5px,ry:5px;
+
+O0("ngo:NFF9-T124-Z0GM-2YSB")
+class O0 oPID;
+
+O1("N8e8c9725bbfe4b7a8c80612d4fc3975a")
+class O1 literal;
+O0 -- crm:P43_has_dimension -->O1["N8e8c9725bbfe4b7a8c80612d4fc3975a"]
+
+O2("aat:300266226")
+class O2 type;
+click O2 "http://vocab.getty.edu/aat/300266226" "Tooltip"
+
+O3("TIFF@en")
+class O3 literal;
+O2 -- crm:P1i_identifies -->O3["TIFF@en"]
+
+O4("ngo:9JBM-UYCS-9BQK-RRQI")
+class O4 oPID;
+O0 -- crm:P108i_was_produced_by -->O4["ngo:9JBM-UYCS-9BQK-RRQI"]
+
+O5("116215212")
+class O5 literal;
+O1 -- crm:P90_has_value -->O5["116215212"]
+
+O6("N05ddd96ad18d4d4b850dee51c8791947")
+class O6 literal;
+
+O7("aat:300266190")
+class O7 type;
+click O7 "http://vocab.getty.edu/aat/300266190" "Tooltip"
+O6 -- crm:P91_has_unit -->O7["aat:300266190"]
+
+O8("aat:300265866")
+class O8 type;
+click O8 "http://vocab.getty.edu/aat/300265866" "Tooltip"
+
+O9("bits (computing)@en")
+class O9 literal;
+O8 -- crm:P1i_identifies -->O9["bits (computing)@en"]
+
+O10("N61e97da6c97844298f2ea268a4174b52")
+class O10 literal;
+
+O11("N3b2fa24cc809460eadc8cdfa1879c8e0")
+class O11 literal;
+O10 -- crm:P43_has_dimension -->O11["N3b2fa24cc809460eadc8cdfa1879c8e0"]
+
+O12("Nc0937c473911445c89f941a9561ae5fd")
+class O12 literal;
+
+O13("aat:300410392")
+class O13 type;
+click O13 "http://vocab.getty.edu/aat/300410392" "Tooltip"
+O12 -- crm:P2_has_type -->O13["aat:300410392"]
+
+O14("N-0168-00-000048.tif")
+class O14 literal;
+
+O15("wd:Q1144928")
+class O15 type;
+click O15 "https://www.wikidata.org/wiki/Q1144928" "Tooltip"
+O14 -- crm:P2_has_type -->O15["wd:Q1144928"]
+
+O16("ngo:PJBV-W6MB-YZB0-I4RX")
+class O16 oPID;
+
+O17("wd:Q873806")
+class O17 type;
+click O17 "https://www.wikidata.org/wiki/Q873806" "Tooltip"
+O16 -- crm:P2_has_type -->O17["wd:Q873806"]
+
+O18("ngo:0EXM-0001-0000-0000")
+class O18 oPID;
+O0 -- crm:P138_represents -->O18["ngo:0EXM-0001-0000-0000"]
+
+O19("bit depth@en")
+class O19 literal;
+O13 -- crm:P1i_identifies -->O19["bit depth@en"]
+
+O20("ng-london/1 X-Ray Images/N-0168-00-000048-PYR")
+class O20 literal;
+O10 -- crm:P1_has_identifier -->O20["ng-london/1 X-Ray Images/N-0168-00-000048-PYR"]
+
+O21("crm:E54_Dimension-0")
+class O21 crm;
+O6 -- crm:P2_has_type -->O21["crm:E54_Dimension"]
+
+O22("N6647c96861cb4bd38b0022ff50ccfc69")
+class O22 literal;
+
+O23("aat:300055647")
+class O23 type;
+click O23 "http://vocab.getty.edu/aat/300055647" "Tooltip"
+O22 -- crm:P2_has_type -->O23["aat:300055647"]
+
+O24("crm:E42_Identifier-1")
+class O24 crm;
+O14 -- crm:P2_has_type -->O24["crm:E42_Identifier"]
+
+O25("thumbnail@en")
+class O25 literal;
+O17 -- crm:P1i_identifies -->O25["thumbnail@en"]
+
+O26("aat:300265869")
+class O26 type;
+click O26 "http://vocab.getty.edu/aat/300265869" "Tooltip"
+O1 -- crm:P91_has_unit -->O26["aat:300265869"]
+
+O27("X-Ray Examination of NG168")
+class O27 literal;
+O4 -- crm:P1i_identifies -->O27["X-Ray Examination of NG168"]
+
+O28("Number of pyramidal levels")
+class O28 literal;
+O11 -- crm:P1_has_identifier -->O28["Number of pyramidal levels"]
+
+O29("6661")
+class O29 literal;
+O22 -- crm:P90_has_value -->O29["6661"]
+
+O30("aat:300419323")
+class O30 type;
+click O30 "http://vocab.getty.edu/aat/300419323" "Tooltip"
+O4 -- crm:P33_used_specific_technique -->O30["aat:300419323"]
+
+O31("8722")
+class O31 literal;
+O6 -- crm:P90_has_value -->O31["8722"]
+
+O32("ngo:FCRS-JH1C-V40U-G3UJ")
+class O32 oPID;
+O0 -- crm:P165_incorporates -->O32["ngo:FCRS-JH1C-V40U-G3UJ"]
+O4 -- crm:P39_measured -->O18["ngo:0EXM-0001-0000-0000"]
+O0 -- crm:P2i_is_type_of -->O10["N61e97da6c97844298f2ea268a4174b52"]
+
+O33("wd:Q3411251")
+class O33 type;
+click O33 "https://www.wikidata.org/wiki/Q3411251" "Tooltip"
+O10 -- crm:P2_has_type -->O33["wd:Q3411251"]
+O0 -- crm:P43_has_dimension -->O12["Nc0937c473911445c89f941a9561ae5fd"]
+O0 -- crm:P2_has_type -->O2["aat:300266226"]
+
+O34("crm:E54_Dimension-2")
+class O34 crm;
+O12 -- crm:P2_has_type -->O34["crm:E54_Dimension"]
+
+O35("wd:Q270159")
+class O35 type;
+click O35 "https://www.wikidata.org/wiki/Q270159" "Tooltip"
+O12 -- crm:P90_has_value -->O35["wd:Q270159"]
+
+O36("aat:300055644")
+class O36 type;
+click O36 "http://vocab.getty.edu/aat/300055644" "Tooltip"
+O6 -- crm:P2_has_type -->O36["aat:300055644"]
+
+O37("crm:E54_Dimension-3")
+class O37 crm;
+O22 -- crm:P2_has_type -->O37["crm:E54_Dimension"]
+
+O38("aat:300379861")
+class O38 type;
+click O38 "http://vocab.getty.edu/aat/300379861" "Tooltip"
+
+O39("imaging (image making process)@en")
+class O39 literal;
+O38 -- crm:P1i_identifies -->O39["imaging (image making process)@en"]
+
+O40("pixels@en")
+class O40 literal;
+O7 -- crm:P1i_identifies -->O40["pixels@en"]
+
+O41("crm:E73_Information_Object-4")
+class O41 crm;
+O10 -- crm:P2_has_type -->O41["crm:E73_Information_Object"]
+
+O42("7.0")
+class O42 literal;
+O11 -- crm:P90_has_value -->O42["7.0"]
+
+O43("x-radiography@en")
+class O43 literal;
+O30 -- crm:P1i_identifies -->O43["x-radiography@en"]
+O12 -- crm:P91_has_unit -->O8["aat:300265866"]
+
+O44("height@en")
+class O44 literal;
+O36 -- crm:P1i_identifies -->O44["height@en"]
+
+O45("http://cima.ng-london.org.uk/fcgi-bin/iipsrv.fcgi?FIF=/pics/tmp/raphael_pyr/N-0168/16.1_X-Ray_Images/N-0168-00-000048-PYR.tif&QLT=75&cnt=1&WID=256&CVT=JPEG")
+class O45 url;
+click O45 "http://cima.ng-london.org.uk/fcgi-bin/iipsrv.fcgi?FIF=/pics/tmp/raphael_pyr/N-0168/16.1_X-Ray_Images/N-0168-00-000048-PYR.tif&QLT=75&cnt=1&WID=256&CVT=JPEG" "Tooltip"
+O16 -- crm:P1_has_identifier -->O45["http://cima.ng-london.org.uk/fcgi-bin/iipsrv.fcgi?FIF=/pics/<br/>tmp/raphael_pyr/N-0168/16.1_X-Ray_Images/N-0168-00-000048-PY<br/>R.tif&QLT=75&cnt=1&WID=256&CVT=JPEG"]
+O0 -- crm:P43_has_dimension -->O6["N05ddd96ad18d4d4b850dee51c8791947"]
+
+O46("crm:E16_Measurement-5")
+class O46 crm;
+O4 -- crm:P2_has_type -->O46["crm:E16_Measurement"]
+
+O47("crm:E54_Dimension-6")
+class O47 crm;
+O1 -- crm:P2_has_type -->O47["crm:E54_Dimension"]
+O0 -- crm:P43_has_dimension -->O22["N6647c96861cb4bd38b0022ff50ccfc69"]
+O0 -- crm:P62i_is_depicted_by -->O16["ngo:PJBV-W6MB-YZB0-I4RX"]
+O22 -- crm:P91_has_unit -->O7["aat:300266190"]
+
+O48("aat:300265863")
+class O48 type;
+click O48 "http://vocab.getty.edu/aat/300265863" "Tooltip"
+O1 -- crm:P2_has_type -->O48["aat:300265863"]
+
+O49("crm:E54_Dimension-7")
+class O49 crm;
+O11 -- crm:P2_has_type -->O49["crm:E54_Dimension"]
+
+O50("8-bit")
+class O50 literal;
+O35 -- crm:P1i_identifies -->O50["8-bit"]
+O4 -- crm:P2_has_type -->O38["aat:300379861"]
+
+O51("width@en")
+class O51 literal;
+O23 -- crm:P1i_identifies -->O51["width@en"]
+
+O52("crm:E38_Image-8")
+class O52 crm;
+O16 -- crm:P2_has_type -->O52["crm:E38_Image"]
+
+O53("size for computer files@en")
+class O53 literal;
+O48 -- crm:P1i_identifies -->O53["size for computer files@en"]
+
+O54("crm:E90_Symbolic_Object-9")
+class O54 crm;
+O32 -- crm:P2_has_type -->O54["crm:E90_Symbolic_Object"]
+
+O55("pyramid@en")
+class O55 literal;
+O33 -- crm:P1i_identifies -->O55["pyramid@en"]
+O0 -- crm:P149_is_identified_by -->O14["N-0168-00-000048.tif"]
+
+O56("/pics/tmp/raphael_pyr/N-0168/16.1_X-Ray_Images/N-0168-00-000048-PYR.tif")
+class O56 literal;
+O10 -- crm:P149_is_identified_by -->O56["/pics/tmp/raphael_pyr/N-0168/16.1_X-Ray_Images/N-0168-00-000<br/>048-PYR.tif"]
+
+O57("filename@en")
+class O57 literal;
+O15 -- crm:P1i_identifies -->O57["filename@en"]
+
+O58("bytes@en")
+class O58 literal;
+O26 -- crm:P1i_identifies -->O58["bytes@en"]
+;</div></div>
+            </div>
+        </div>
+        </div>
+        
+	
+  <script src="https://unpkg.com/mermaid@8.5.2/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true, flowchart: { 
+    curve: 'basis'
+  }});</script>  
+    </body>
+</html>

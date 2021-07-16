@@ -1,4 +1,9 @@
-﻿//subgraph Width and Height,,,
+////////////////////////////////////////////////////////////////////////
+// Model: painting // Workshop Example 1: Painting
+// D8.5 Figure 3
+////////////////////////////////////////////////////////////////////////
+
+//subgraph Width and Height,,,
 aat:300055644,rdfs:label,height,
 aat:300055647,rdfs:label,width,
 aat:300379098,rdfs:label,centimeters,

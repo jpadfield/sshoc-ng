@@ -1,4 +1,9 @@
-﻿N1c244cd259cc4bcdb8efc94652ec0290,sci:O5_removed,ngo:Y4M5-2P4X-GYFR-9WJP,event_bn|object
+////////////////////////////////////////////////////////////////////////
+// Model: sample // Workshop Example 2: Sample
+// D8.5 Figure 1
+////////////////////////////////////////////////////////////////////////
+
+N1c244cd259cc4bcdb8efc94652ec0290,sci:O5_removed,ngo:Y4M5-2P4X-GYFR-9WJP,event_bn|object
 N1c244cd259cc4bcdb8efc94652ec0290,sci:O3_sampled_from,ngo:0D0E-0001-0000-0000,|object
 N1c244cd259cc4bcdb8efc94652ec0290,sci:O4_sampled_at,N3017590f9ff54ca4b46ccdeac8e55903,|place_bn
 N1c244cd259cc4bcdb8efc94652ec0290,crm:P14_carried_out_by,ngo:WLTN-O3MV-PTQH-4CHX,|actor

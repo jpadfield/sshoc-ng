@@ -1,4 +1,9 @@
-﻿ngo:1ZFX-UT2V-87KR-N3EY,crm:P39_measured,ngo:0D0E-0001-0000-0000,event|object,
+////////////////////////////////////////////////////////////////////////
+// Model: image // Workshop Example 3: Image
+// D8.5 Figure 2
+////////////////////////////////////////////////////////////////////////
+
+ngo:1ZFX-UT2V-87KR-N3EY,crm:P39_measured,ngo:0D0E-0001-0000-0000,event|object,
 //subgraph Pyramid,,,,
 //subgraph Pyramidal Levels,,,,
 N02f1971b0b564dc6bf800010b96f9289,rdfs:label,Number of pyramidal levels,dims_bn|note,
